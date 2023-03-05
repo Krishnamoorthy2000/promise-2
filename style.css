@@ -1,0 +1,81 @@
+/* Styles for the header */
+header {
+       background-color: #222;
+       color: white;
+       text-align: center;
+       padding: 20px;
+     }
+     
+     /* Styles for the form */
+     form {
+       margin: 20px auto;
+       max-width: 500px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     
+     input[type="text"] {
+       width: 70%;
+       padding: 10px;
+       border-radius: 5px 0 0 5px;
+      
+     }
+     
+     button[type="submit"] {
+       width: 30%;
+       border-radius: 0 5px 5px 0;
+       border: none;
+       background-color: #555;
+       color: white;
+       padding: 10px;
+       cursor: pointer;
+     }
+     
+     /* Styles for the movie cards */
+     #resultsContainer {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: stretch;
+       max-width: 1200px;
+       margin: 0 auto;
+     }
+     
+     .card {
+       width: 300px;
+       margin: 20px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+       overflow: hidden;
+       box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+     }
+     
+     .card img {
+       max-width: 100%;
+       height: auto;
+       display: block;
+     }
+     
+     .card .movie-info {
+       padding: 10px;
+       text-align: center;
+     }
+     
+     .card .movie-title {
+       font-size: 20px;
+       font-weight: bold;
+       margin: 10px 0;
+       background-color: antiquewhite;
+       
+     }
+     
+     .card .movie-description {
+       font-size: 16px;
+       line-height: 1.4;
+       margin: 10px 0;
+     }
+     h3{
+       text-align: center;
+     }
+     
